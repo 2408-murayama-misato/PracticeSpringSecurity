@@ -21,6 +21,9 @@
       投稿 : <span th:text="${content.content}"/>
     </div>
   </div>
+  <form th:action="@{/logout}" method="post">
+    <input type="submit" value="ログアウト">
+  </form>
 </div>
 </body>
 </html>
